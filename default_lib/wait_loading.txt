@@ -1,0 +1,5 @@
+# Ladebildschirm abwarten
+block wait_loading {
+    mass waitforloading completion
+    sleep 1
+}

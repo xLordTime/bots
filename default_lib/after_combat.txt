@@ -1,0 +1,6 @@
+# Nach dem Kampf weiterlaufen
+block after_combat {
+    call wait_combat_done
+    call step_forward
+    sleep 3
+}

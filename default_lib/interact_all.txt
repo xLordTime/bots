@@ -1,0 +1,5 @@
+# X an die Auswahl
+block interact_all {
+    mass sendkey X, 0.1
+    sleep 0.5
+}

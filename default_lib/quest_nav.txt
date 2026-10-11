@@ -1,0 +1,5 @@
+# Navmap zum Quest-Ziel
+block quest_nav {
+    mass tp navquest
+    sleep 1
+}

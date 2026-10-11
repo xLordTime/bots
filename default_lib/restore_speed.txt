@@ -1,0 +1,4 @@
+# Ursprüngliche Geschwindigkeit
+block restore_speed {
+    mass restorespeed
+}

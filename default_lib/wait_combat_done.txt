@@ -1,0 +1,5 @@
+# Aktiven Kampf abwarten
+block wait_combat_done {
+    mass waitforcombat completion
+    sleep 0.5
+}

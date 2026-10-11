@@ -1,0 +1,5 @@
+# Kurzer Schritt vorwärts
+block step_forward {
+    mass sendkey W, 0.2
+    sleep 0.5
+}

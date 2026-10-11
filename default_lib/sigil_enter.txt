@@ -1,0 +1,6 @@
+# Sichtbares Sigil betreten
+block sigil_enter {
+    mass waitforwindow "NPCRangeWin" 30
+    call interact_all
+    mass waitforzonechange completion
+}

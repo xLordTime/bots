@@ -1,0 +1,13 @@
+# Mob-Kampf starten
+block safe_mob_pull {
+    times 10 {
+        if incombat {
+            break
+        } else {
+            mass tp closestmob
+            sleep 0.6
+            mass sendkey W, 0.25
+            sleep 0.6
+        }
+    }
+}

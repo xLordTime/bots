@@ -1,0 +1,12 @@
+##deimos_expertmode
+# @name: Safe Mob Farm · MythicWalker
+# @zone: *
+# @author: xLordTime
+# @format: expertmode
+# @clients: <=16
+# @description: Start in a mob zone. Enable bot Auto-Combat or fight manually. Stops after 15 minutes.
+# Requires MythicWalker's default block library.
+times 999999 {
+    call safe_mob_pull
+    call after_combat
+}
